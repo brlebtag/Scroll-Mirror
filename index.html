@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Scroll Mirror Plugin</title>
+  <meta name="description" content="Scroll Mirror Plugin">
+  <meta name="author" content="Bruno Lebtag<brlebtag@gmail.com>">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <style>
+      .content {
+          width: 1200px;
+          height: 1200px;
+      }
+
+      #wrapper {
+          width: 350px;
+          height: 350px;
+          overflow: hidden;
+      }
+
+      .scrollable {
+        overflow-y: scroll;
+      }
+  </style>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="scroll-mirror.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="content">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel condimentum dolor. In in neque interdum lorem scelerisque euismod. Etiam aliquam, tortor a egestas blandit, neque nibh vehicula dolor, aliquam dictum ante velit sed lorem. Etiam augue felis, pellentesque egestas tellus et, pulvinar cursus lorem. Mauris elit risus, ultrices vel volutpat sit amet, lacinia vitae tellus. Sed aliquam ligula in tellus tristique consequat. Integer dignissim magna aliquet est malesuada congue. Nunc ut porttitor ante. Cras vestibulum mattis posuere. Vivamus eget enim nec augue maximus varius non sed est. Morbi diam orci, molestie ut libero in, maximus maximus est. Nulla eget varius urna, vel euismod nibh. Cras aliquam erat eu enim tristique dictum. Donec vitae tincidunt nunc.
+
+Vestibulum quis faucibus libero. In quis consequat est, nec iaculis dolor. Sed ac accumsan lectus. Cras ut finibus libero. Ut vel ullamcorper turpis, sed pretium magna. Suspendisse nunc eros, malesuada quis gravida ut, consequat at velit. Phasellus consequat risus et eros tristique ultricies. Sed et tincidunt elit. Proin in iaculis turpis. Sed lobortis, urna feugiat egestas interdum, nibh mauris malesuada nulla, id aliquet sem orci at erat. Donec tempus felis diam, convallis dictum eros vestibulum a. Aenean sed mi congue, iaculis ipsum a, placerat risus.
+
+Etiam id vulputate libero. In vel ultricies diam. Maecenas sagittis blandit nibh, ac porta velit varius posuere. Quisque cursus finibus tincidunt. In hac habitasse platea dictumst. Mauris eu ultrices est, at mollis felis. Mauris pretium nibh elit, in sagittis nisl auctor ac. Aenean vitae metus fringilla, imperdiet mauris id, mattis sapien. Morbi tortor turpis, dignissim eget risus ac, suscipit lobortis ex. Nam rhoncus et justo in egestas. Donec ultrices vel velit et semper.
+
+Vestibulum sed neque condimentum, sodales diam sed, malesuada massa. Mauris sit amet egestas enim. In hac habitasse platea dictumst. Fusce vitae eros elementum dui malesuada varius. Maecenas efficitur velit lobortis, mollis lacus non, laoreet libero. In hac habitasse platea dictumst. Vestibulum ut nulla lobortis dui facilisis vehicula nec id nisl. Curabitur non neque eget nulla semper condimentum quis vitae enim. Vivamus malesuada molestie libero, non condimentum ante molestie eu. Proin ac augue nulla. Integer vel mollis turpis, vel rutrum risus.
+
+Pellentesque feugiat turpis sed ex tempus, ut porttitor leo sollicitudin. Nunc sodales elit non purus ornare, nec maximus dui luctus. Donec velit orci, tristique vel quam id, eleifend gravida lectus. In et suscipit nulla. Quisque ac dignissim libero. Vestibulum in enim ultrices neque pulvinar vehicula. Vestibulum ut placerat leo, ut efficitur elit. In consectetur ultrices purus pretium lobortis. Sed at tincidunt purus. Nulla feugiat gravida orci nec pulvinar. Pellentesque nec turpis at erat fermentum sagittis. Donec rhoncus purus ut accumsan bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+Aenean aliquam est turpis, eu sagittis felis efficitur euismod. Nulla sed ultrices ex. Nullam ac cursus ex, nec viverra magna. Nullam vitae fringilla sapien, id vehicula dolor. Curabitur posuere feugiat pellentesque. Etiam eget tellus eget dolor iaculis elementum. Suspendisse felis augue, pharetra a ante quis, aliquam faucibus eros. Nunc tristique dapibus turpis, ut semper risus vestibulum non. Morbi erat sapien, vestibulum eu tristique posuere, lobortis ut enim. Maecenas ante ligula, vehicula sit amet sodales at, fermentum sit amet eros. Nulla et felis mauris. Pellentesque egestas ligula a semper tincidunt. Suspendisse feugiat elit id libero rhoncus vehicula. Pellentesque et lacinia tortor, ut convallis quam.
+
+Sed consectetur sollicitudin ex et pulvinar. Donec eget fringilla lectus. Duis porttitor, dui in ullamcorper ultrices, dui dolor finibus lorem, eu pharetra erat nisl non ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras pulvinar pharetra accumsan. Aliquam eu scelerisque metus. Suspendisse lacus leo, rutrum quis molestie rutrum, lobortis non arcu. Donec tellus orci, ullamcorper non nisi sed, tempus interdum neque. Integer volutpat mi est, ac pellentesque leo tempor vel. Proin eleifend enim dui, et dictum neque sollicitudin nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Ut ultricies varius leo vel pretium. Maecenas et pellentesque ante. Integer ornare in lectus vitae iaculis. Nunc diam sem, auctor a mi eu, sagittis sollicitudin lectus. In auctor, magna sed porttitor scelerisque, odio enim interdum nisl, non vestibulum arcu risus ut sapien. Etiam non dolor vitae sapien posuere pretium. Vivamus ac turpis lorem. Nunc sit amet mauris tempor, pulvinar urna imperdiet, dignissim diam. Ut sed tristique diam, ut suscipit nunc. Sed sodales vehicula arcu, pretium ornare lorem commodo sed. Sed maximus convallis volutpat. Nullam varius id mauris a varius. Proin tempor dolor commodo felis efficitur, sit amet varius mi porttitor.
+
+Etiam feugiat magna nunc, at congue ex pulvinar vitae. Quisque pellentesque ultrices ultrices. Aliquam dapibus orci at dolor congue, vel dapibus tellus ornare. Suspendisse ultricies massa ac condimentum mattis. Proin feugiat laoreet pharetra. Sed dapibus fermentum nunc, eu mattis lectus aliquam pharetra. Sed elementum, magna ut varius finibus, erat nibh venenatis urna, sit amet hendrerit nunc orci ut nulla. Praesent consequat in sapien sit amet vehicula. Sed et est ut diam bibendum suscipit vel vel risus. Aliquam a urna et nisi mattis viverra. In tristique commodo porttitor. Pellentesque at risus lorem. Nunc ultrices vestibulum urna, ut convallis nisl egestas nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed nisl metus. Phasellus tincidunt augue et tincidunt luctus.
+
+Proin quis dolor eleifend, sollicitudin ligula id, semper diam. Mauris vel cursus eros. Nullam mattis, leo et dignissim efficitur, purus leo semper nulla, nec ullamcorper nulla turpis ac tortor. Ut consequat, justo iaculis ultrices semper, eros urna tempor lacus, quis congue arcu leo sed magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin non ligula lobortis, tristique libero id, vehicula sapien. Nam tristique eros a magna tincidunt tristique. Ut bibendum lorem turpis, at condimentum sapien pulvinar sed. Sed blandit dui dolor, sed dictum quam pellentesque nec. Suspendisse ac nisi placerat, ornare dolor cursus, laoreet mi.
+
+Vestibulum rutrum nisl nulla, id vestibulum ipsum pulvinar quis. Nam lobortis, ex ac imperdiet molestie, risus nunc convallis turpis, eu tincidunt metus ipsum id erat. Maecenas gravida sit amet quam at blandit. Nunc scelerisque feugiat justo sit amet porttitor. Curabitur tortor arcu, feugiat at urna quis, tempus laoreet nisi. Proin eleifend eros maximus mi tempus pretium. Aenean et lorem interdum, hendrerit sem vitae, aliquet justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+Sed velit erat, lacinia eu ligula nec, eleifend cursus magna. Donec euismod velit vitae varius tempus. Morbi non nisl nibh. In hac habitasse platea dictumst. Praesent vestibulum vitae est eget aliquet. Aliquam erat volutpat. Nunc vitae nisl vitae leo ultrices maximus in vel odio. Nullam non leo libero. Aenean pharetra pulvinar lorem id faucibus. Etiam vel neque consectetur, tempor sapien quis, dapibus urna.
+
+Pellentesque facilisis est lacus, commodo venenatis eros fermentum sed. Quisque dapibus, nunc id gravida elementum, augue purus malesuada est, eu euismod nisi justo id enim. Ut pellentesque magna eros. Phasellus ut pretium lectus, sed varius orci. Maecenas gravida odio eu mattis interdum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec et elementum mauris. Morbi sed imperdiet nibh, eu vulputate est. Donec euismod tortor non tortor euismod, eu dignissim ipsum tristique.
+
+Morbi sapien ligula, placerat in faucibus et, euismod non erat. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Quisque tempus tellus sit amet est venenatis mattis. Aenean at nunc quis ante tincidunt eleifend. Nunc non turpis iaculis, dignissim dolor ut, blandit dui. Sed feugiat, ex at ornare scelerisque, nisi nibh venenatis ex, vitae auctor urna nisl eu ex. Aliquam erat volutpat.
+
+Vestibulum venenatis pellentesque consectetur. Morbi faucibus rhoncus nisi at finibus. Sed euismod luctus leo et mattis. Proin quis fringilla dolor. In vitae fermentum eros. Fusce a eros elit. In augue lorem, sodales id erat vel, lobortis facilisis dolor. Duis ut dui id nulla hendrerit efficitur ut in arcu. Curabitur nec justo sed neque dictum cursus.
+    </div>
+  </div>
+
+  <div class="scroll-control" data-scroll-mirror="wrapper"></div>
+</body>
+</html>
